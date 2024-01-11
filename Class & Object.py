@@ -19,7 +19,7 @@ class Car:
   # Define car's attributes, initialise the method
   def __init__(self, color, make):
     self.color = color
-    self.make. = make
+    self.make = make
   # Define the method to print car's information
   def show(self):
     print("Color: {}. Make: {}".format(self.color, self.make))
