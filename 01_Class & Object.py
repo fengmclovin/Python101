@@ -33,7 +33,7 @@ Therefore, an object is essentially an instance of a class.
 
 """
 
-# To create a specific student object, we need to input:
+# To create a specific car object, we need to input:
 
 car1 = Car("Black", 2007)
 car2 = Car("White", 2014)
