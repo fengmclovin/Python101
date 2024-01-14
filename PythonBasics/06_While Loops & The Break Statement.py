@@ -46,3 +46,13 @@ print(total5)
 
 # While loop is used to execute a block of code repeatedly until given boolean condition evaluated to False. 
 # If we write while True then the loop will run forever.
+
+# Example 6
+given_list3 = [7, 5, 4, 3, 2, 1, -2, -3, -4, -5]
+
+total6 = 0
+j = len(given_list3) - 1
+while given_list3[j] < 0:
+    total6 += given_list3[j]
+    j -= 1
+print(total6)
